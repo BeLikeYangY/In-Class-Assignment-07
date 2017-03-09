@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "322847198772",
+    "firebase_url": "https://secretholder-1c3c1.firebaseio.com",
+    "project_id": "secretholder-1c3c1",
+    "storage_bucket": "secretholder-1c3c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322847198772:android:7466391d5a53b8c3",
+        "android_client_info": {
+          "package_name": "com.example.android.secretholder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322847198772-7k7cjh3e9jlg71lq6pcmo86kkuu1gf4m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.secretholder",
+            "certificate_hash": "62faccac3dda0c867a4744f9c1105e99e8dc2f1f"
+          }
+        },
+        {
+          "client_id": "322847198772-lc257beunjfue7ga6koa2q24f27esvb3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwvGmkcYL923MkFECYOBJSyMvJiZTJsU0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322847198772-lc257beunjfue7ga6koa2q24f27esvb3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
