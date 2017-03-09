@@ -1,5 +1,6 @@
 package com.example.android.secretholder;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -28,5 +29,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void reveal(View view) {
+        Intent intent = new Intent(this, Main2Activity.class);
+        startActivity(intent);
+
     }
 }
