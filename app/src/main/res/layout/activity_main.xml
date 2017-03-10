@@ -18,6 +18,14 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter your name here"
+        android:id="@+id/name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:hint="Enter your secrets here"
         android:id="@+id/editText"
         android:inputType="textMultiLine"
@@ -28,6 +36,16 @@
         android:layout_height="wrap_content"
         android:text="Save"
         android:onClick="save"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Whose secret to reveal/"
+        android:id="@+id/target"
+        android:inputType="textPersonName" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
