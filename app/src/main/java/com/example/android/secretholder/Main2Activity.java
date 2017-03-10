@@ -33,7 +33,12 @@ public class Main2Activity extends AppCompatActivity {
                 String value = dataSnapshot.getValue(String.class);
 
                 TextView tv = (TextView)findViewById(R.id.secretDisplay);
-                tv.setText(value);
+
+                if(value != null){
+                    tv.setText(value);
+                } else {
+                    tv.setText("Error! No secret found!");
+                }
 
             }
 
