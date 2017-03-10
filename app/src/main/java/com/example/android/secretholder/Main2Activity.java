@@ -37,7 +37,7 @@ public class Main2Activity extends AppCompatActivity {
                 if(value != null){
                     tv.setText(value);
                 } else {
-                    tv.setText("Error! No secret found!");
+                    tv.setText(getResources().getString(R.string.error_message));
                 }
 
             }
